@@ -81,24 +81,24 @@ WSGI_APPLICATION = 'django_app.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd2foe2pn251h95',
-        'USER': 'xsbehxobsopems',
-        'PORT': 5432,
-        'HOST': 'ec2-52-71-69-66.compute-1.amazonaws.com',
-        'PASSWORD': '5f1cc280810593499a871f345d16927ea6c5ea4e92cb89b53f301f9fafc814ae',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': 'd2foe2pn251h95',
+#         'USER': 'xsbehxobsopems',
+#         'PORT': 5432,
+#         'HOST': 'ec2-52-71-69-66.compute-1.amazonaws.com',
+#         'PASSWORD': '5f1cc280810593499a871f345d16927ea6c5ea4e92cb89b53f301f9fafc814ae',
+#     }
+# }
 
 
 
